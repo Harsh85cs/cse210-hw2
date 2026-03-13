@@ -27,7 +27,12 @@ class Program
         else if (number >= 60)
         {
             letter = "D";
-            Console.WriteLine($"I'm sorry, you got a {letter}. Try better next time");
+            Console.WriteLine($"You got a {letter}. Try better next time");
+        }
+        else if (number <= 60)
+        {
+            letter = "F";
+            Console.WriteLine($"I'm sorry, you failed. You got an {letter}.");
         }
     }
 }
