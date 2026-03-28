@@ -23,6 +23,7 @@ class Program
         "faith in Christ he will manifest the truth of it unto you by the " +
         "power of the Holy Ghost and by the power of the Holy Ghost ye may " +
         "know the truth of all things"));
+        //My addition to the program is this random function in order to randomly choose the scripture passage.
         Random random = new Random();
         int index = random.Next(0, scriptures.Count);
         Scripture scripture = scriptures[index];
