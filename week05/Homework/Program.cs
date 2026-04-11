@@ -8,11 +8,11 @@ class Program
         Console.WriteLine(assigment1.GetSummary());
 
         MathAssigments mathAssigment = new MathAssigments("Pedro Garcia", "Fractions", "Section 7.3", "Problems 8-15");
-        Console.WriteLine(mathAssigment.GetSummary());       // heredado de Assigments
-        Console.WriteLine(mathAssigment.GetHomeworkList());  // propio de MathAssigments
+        Console.WriteLine(mathAssigment.GetSummary());       
+        Console.WriteLine(mathAssigment.GetHomeworkList());  
 
         WritingAssigment writingAssigment = new WritingAssigment("Maria Torres", "Romeo and Juliet", "The Tragedy of Love");
-        Console.WriteLine(writingAssigment.GetSummary());          // heredado de Assigments
-        Console.WriteLine(writingAssigment.GetWrittingInformation()); // propio de WritingAssigment
+        Console.WriteLine(writingAssigment.GetSummary());          
+        Console.WriteLine(writingAssigment.GetWrittingInformation()); 
     }
 }
